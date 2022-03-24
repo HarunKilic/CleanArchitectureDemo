@@ -1,16 +1,18 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CleanArch.Application", "CleanArch.Application", "{9343F6C7-7145-460E-8192-E466717D52B2}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{9343F6C7-7145-460E-8192-E466717D52B2}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CleanArch.Domain", "CleanArch.Domain", "{664B7DA9-4C85-467D-96D3-52D76A7CB24C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{664B7DA9-4C85-467D-96D3-52D76A7CB24C}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CleanArch.Infra.IoC", "CleanArch.Infra.IoC", "{0070A876-01A2-4F34-9722-4A9A6845185F}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra.IoC", "Infra.IoC", "{0070A876-01A2-4F34-9722-4A9A6845185F}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CleanArch.Infra.Data", "CleanArch.Infra.Data", "{9EE157AD-2969-4A68-88C1-0939E04AAC37}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra.Data", "Infra.Data", "{9EE157AD-2969-4A68-88C1-0939E04AAC37}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CleanArch.UI.Mvc", "CleanArch.UI.Mvc", "{F78213ED-6AF2-4755-BD2B-C41BD9F46544}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{F78213ED-6AF2-4755-BD2B-C41BD9F46544}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArch.Mvc", "CleanArch.Mvc\CleanArch.Mvc.csproj", "{C4B80D7F-1A10-422C-A9ED-1E4F65734363}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArc.Domain", "CleanArc.Domain\CleanArc.Domain.csproj", "{F2ACAC84-819A-4E6E-B353-90522C56DC3F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,11 +21,16 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{C4B80D7F-1A10-422C-A9ED-1E4F65734363} = {F78213ED-6AF2-4755-BD2B-C41BD9F46544}
+		{F2ACAC84-819A-4E6E-B353-90522C56DC3F} = {664B7DA9-4C85-467D-96D3-52D76A7CB24C}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{C4B80D7F-1A10-422C-A9ED-1E4F65734363}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C4B80D7F-1A10-422C-A9ED-1E4F65734363}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4B80D7F-1A10-422C-A9ED-1E4F65734363}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4B80D7F-1A10-422C-A9ED-1E4F65734363}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2ACAC84-819A-4E6E-B353-90522C56DC3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2ACAC84-819A-4E6E-B353-90522C56DC3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2ACAC84-819A-4E6E-B353-90522C56DC3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2ACAC84-819A-4E6E-B353-90522C56DC3F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
